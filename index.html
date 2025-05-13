@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <style>
+      .div2{
+        margin: 6rem 12rem;
+        height: 20rem; width: 36rem;
+        background-size: 100% 100%;
+        box-shadow: 20px 20px 10px gray;
+        animation: slider 15s linear infinite;
+        border-radius: 20px;
+      }
+      .div1 {
+        text-shadow: 5px 5px 3px black;
+        margin-left: 250px;
+        margin-top: 100px;
+      }
+      @keyframes slider {
+        0%{background-image: url(https://i.pinimg.com/736x/39/dc/01/39dc01cfc23bd5424cad6198207ce537.jpg);}
+        25%{background-image: url(https://i.pinimg.com/736x/ee/2d/78/ee2d78a6a2f2cf5af58df7605745adc8.jpg);}
+        50%{background-image: url(https://i.pinimg.com/736x/a7/43/5b/a7435b942527762454da0625cea175d7.jpg);}
+        75%{background-image: url(https://i.pinimg.com/736x/e7/ed/d6/e7edd66c9cd3129d9d60af492188cc8a.jpg);}
+        100%{background-image: url(https://i.pinimg.com/736x/88/cd/04/88cd04e9229fce5b0fe7163dc3e7e154.jpg);}
+      }
+    </style>
+<body>
+  <div class="div1"><h1>Background Animation | CSS</h1></div>
+  <div class="div2"></div>    
+</body>
+</html>
